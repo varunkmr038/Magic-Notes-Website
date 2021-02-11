@@ -1,9 +1,10 @@
-# My Online Meals       <img align="center" width="50" height="50" src="img/icon.jpg">
-### An elegant single page food ordering web application using Pure HTML and CSS
+# Magic Notes       <img align="center" width="50" height="50" src="img/icon.png">
+### A web-based notes keeping App built using Bootstrap and Javascript
 ## Tech Stack used: 
 - HTML
 - CSS
+- Bootstrap
+- Javascript
 
-
-## [Live Site](https://my-online-meals.netlify.app)
- https://my-online-meals.netlify.app/
+## [Live Site](https://magic-notes-web.netlify.app)
+https://magic-notes-web.netlify.app

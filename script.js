@@ -125,7 +125,7 @@ impNotesbtn = document.getElementById('impNotesbtn');
 impNotesbtn.addEventListener("click", function () {
       if(impcount%2==0){
     let notesarr = document.getElementsByClassName('imp card-body');
-    console.log(notesarr, typeof (notesarr)); str = ``;
+      str = ``;
     Array.from(notesarr).forEach(element => {
         wrap=document.createElement('div');
          wrap.appendChild(element.parentElement);

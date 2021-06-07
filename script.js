@@ -29,11 +29,11 @@ function update(flag) {
   notesarr.forEach((element, index) => {
     str += `
  <div class="mx-2 my-3" style="width: 18rem;">
-    <div class="${element[1]}">
-      <h5 class="card-title">${element[2]}</h5>
+    <div class="${element[1]} object-fit">
+      <h3 class="card-title">${element[2]}</h3>
       <p class="card-text">${element[0]}</p>
-      <button class="btn btn-primary" onclick="deleted(${index})">Delete</button>
-      <button class="btn btn-primary impbtn"  onclick="markimp(${index})">Mark as Important</button>
+      <button class="btn btn-danger btn-sm" onclick="deleted(${index})">Delete</button>
+      <button class="btn btn-warning impbtn btn-sm mb-2"  onclick="markimp(${index})">Mark Important</button>
     </div>
   </div>
  `;
@@ -72,10 +72,10 @@ search.addEventListener("input", function () {
       str += `
         <div class="mx-2 my-3" style="width: 18rem;">
            <div class="${element[1]}">
-             <h5 class="card-title">${element[2]}</h5>
+             <h3 class="card-title">${element[2]}</h3>
              <p class="card-text">${element[0]}</p>
-             <button class="btn btn-primary" onclick="deleted(${index})">Delete</button>
-             <button class="btn btn-primary impbtn" onclick="markimp(${index})" >Mark as Important</button>
+             <button class="btn btn-danger btn-sm" onclick="deleted(${index})">Delete</button>
+      <button class="btn btn-warning impbtn btn-sm mb-2"  onclick="markimp(${index})">Mark Important</button>
            </div>
          </div>
         `;

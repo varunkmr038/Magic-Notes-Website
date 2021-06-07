@@ -1,6 +1,8 @@
 # Magic Notes       <img align="center" width="50" height="50" src="img/icon.png">
 ## A web-based notes keeping App built using Bootstrap and Javascript
-### :arrow_right: User can also Search their notes and mark them as Important.
+### :heavy_check_mark: User can also Search their notes and mark them as Important.
+
+
 ## :rocket: Tech Stack used: 
 - HTML
 - CSS
